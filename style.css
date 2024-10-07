@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    background-color: black;
+}
+
+:root {
+    --global--color: #1B1E27;
+    --global2--color: #404864;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+header {
+    background-color: var(--global--color);
+}
+
+.header-list {
+    display: flex;
+    gap: 25px;
+}
+
+.header-list li a {
+    font-family: Quantico;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.6px;
+    text-align: left;
+    color: white;
+}
+
+.header-list li a:hover {
+    font-family: Quantico;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.6px;
+    text-align: left;
+    color: #FF9C28;
+    transition: 300ms;
+
+}
+
+input {
+    width: 241px;
+    padding: 8px;
+    border-radius: 2px;
+    background-color: var(--global2--color);
+}
+
+.search-icon {
+    position: absolute;
+    right: 17%;
+    top: 2.6%;
+}
+
+.right-wrapper {
+    display: flex;
+    gap: 35px;
+}
+
+select {
+    background-color: #000000;
+    width: 140px;
+    color: white;
+}
+
+.background {
+    width: 100%;
+}
+
+.card-wrapper {
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.sec1-item {
+    font-family: Quantico;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45.76px;
+    text-align: left;
+    color: white;
+    text-align: center;
+}
+
+.sec1 {
+    background-color: #000000;
+}
+
+.slider {
+    width: 22px;
+    height: 44px;
+}
+
+.sec2 {
+    background-color: #1B1E27;
+}
+
+.sec2-item {
+    color: white;
+    font-family: Quantico;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.32px;
+    text-align: left;
+
+}
+
+.sec2-text {
+    font-family: Quantico;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+    text-align: left;
+    color: #bfbfbf;
+    width: 323px;
+}
+.box{
+    display: flex;
+    gap: 17px;
+}
+.box-wrapper{
+    width: 725px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+footer{
+    background-color: #272C3D;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
